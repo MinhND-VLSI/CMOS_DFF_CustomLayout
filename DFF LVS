@@ -1,0 +1,128 @@
+ Assura (tm) Physical Verification Version av4.1:Production:dfII6.1.4:IC6.1.4.500.10
+            Release 4.1_USR2_HF8
+
+Copyright (c) Cadence Design Systems. All rights reserved.
+@(#)$CDS: assura version av4.1:Production:dfII6.1.4:IC6.1.4.500.10 07/01/2011 03:11 (sjlin80) $
+sub-version 4.1_USR2_HF8, integ signature 2011-07-01-0228
+   Reading VDB ...
+--------------------------------------------------------------------------------
+Rule      Message                                    FlatCount     RealCount
+--------------------------------------------------------------------------------
+(    1)  dataAuditErrors                                     0            0
+(    2)  ptap_StampErrorFloat                                0            0
+(    3)  ptap_StampErrorMult                                 0            0
+(    4)  ptap_StampErrorConnect                              0            0
+(    5)  psubstrate_StampErrorFloat                          0            0
+(    6)  psubstrate_StampErrorMult                           0            0
+(    7)  psubstrate_StampErrorConnect                        0            0
+(    8)  ntap_StampErrorFloat                                0            0
+(    9)  ntap_StampErrorMult                                 0            0
+(   10)  ntap_StampErrorConnect                              0            0
+(   11)  nwell_conn_StampErrorFloat                          0            0
+(   12)  nwell_conn_StampErrorMult                           0            0
+(   13)  nwell_conn_StampErrorConnect                        0            0
+(   14)  nb_tap_StampErrorFloat                              0            0
+(   15)  nb_tap_StampErrorMult                               0            0
+(   16)  nb_tap_StampErrorConnect                            0            0
+(   17)  Nburied_StampErrorFloat                             0            0
+(   18)  Nburied_StampErrorMult                              0            0
+(   19)  Nburied_StampErrorConnect                           0            0
+(   20)  malformed device _nmos_12                           0            0
+(   21)  malformed device _nmos_12_hvt                       0            0
+(   22)  malformed device _nmos_12_iso                       0            0
+(   23)  malformed device _nmos_12_native                    0            0
+(   24)  malformed device _nmos_25                           0            0
+(   25)  malformed device _nmos_25_native                    0            0
+(   26)  malformed device _pmos_12                           0            0
+(   27)  malformed device _pmos_12_hvt                       0            0
+(   28)  malformed device _pmos_25                           0            0
+(   29)  malformed device _pmoscap_12                        0            0
+(   30)  malformed device _pmoscap_25                        0            0
+(   31)  malformed device _pmoscap_12_3                      0            0
+(   32)  malformed device _pmoscap_25_3                      0            0
+(   33)  malformed device _nmoscap_12                        0            0
+(   34)  malformed device _nmoscap_25                        0            0
+(   35)  malformed device _nmoscap_12_3                      0            0
+(   36)  malformed device _nmoscap_25_3                      0            0
+(   37)  malformed device _rndiff                            0            0
+(   38)  malformed device _rndiff_nosal                      0            0
+(   39)  malformed device _rnpoly                            0            0
+(   40)  malformed device _rnpolynw                          0            0
+(   41)  malformed device _rnpoly_nosal                      0            0
+(   42)  malformed device _rnpolynw_nosal                    0            0
+(   43)  malformed device _rpdiff                            0            0
+(   44)  malformed device _rpdiff_nosal                      0            0
+(   45)  malformed device _rppoly                            0            0
+(   46)  malformed device _rppolynw                          0            0
+(   47)  malformed device _rppoly_nosal                      0            0
+(   48)  malformed device _rppolynw_nosal                    0            0
+(   49)  malformed device _rnwellsti                         0            0
+(   50)  malformed device _rnwellod                          0            0
+(   51)  malformed device _resm1                             0            0
+(   52)  malformed device _resm2                             0            0
+(   53)  malformed device _resm3                             0            0
+(   54)  malformed device _resm4                             0            0
+(   55)  malformed device _resm5                             0            0
+(   56)  malformed device _resm6                             0            0
+(   57)  malformed device _resm7                             0            0
+(   58)  malformed device _resm8                             0            0
+(   59)  malformed device _resm9                             0            0
+(   60)  malformed device _ndio                              0            0
+(   61)  malformed device _pdio                              0            0
+(   62)  malformed device _vpnp2                             0            0
+(   63)  malformed device _vpnp5                             0            0
+(   64)  malformed device _vpnp10                            0            0
+(   65)  malformed device _pnp                               0            0
+(   66)  malformed device _npn                               0            0
+(   67)  malformed device MIMCAP                             0            0
+(   68)  unstable device for MIMCAP_CAP_48                   0            0
+(   70)  unstable device for _npn_BJT_47                     0            0
+(   72)  unstable device for _pnp_BJT_46                     0            0
+(   74)  unstable device for _vpnp10_BJT_45                  0            0
+(   76)  unstable device for _vpnp5_BJT_44                   0            0
+(   78)  unstable device for _vpnp2_BJT_43                   0            0
+(   80)  unstable device for _pdio_DIODE_42                  0            0
+(   82)  unstable device for _ndio_DIODE_41                  0            0
+(   84)  unstable device for _resm9_RES_40                   0            0
+(   86)  unstable device for _resm8_RES_39                   0            0
+(   88)  unstable device for _resm7_RES_38                   0            0
+(   90)  unstable device for _resm6_RES_37                   0            0
+(   92)  unstable device for _resm5_RES_36                   0            0
+(   94)  unstable device for _resm4_RES_35                   0            0
+(   96)  unstable device for _resm3_RES_34                   0            0
+(   98)  unstable device for _resm2_RES_33                   0            0
+(  100)  unstable device for _resm1_RES_32                   0            0
+(  102)  unstable device for _rnwellod_RES_31                0            0
+(  104)  unstable device for _rnwellsti_RES_30               0            0
+(  106)  unstable device for _rppolynw_nosal_RES_            0            0
+(  108)  unstable device for _rppoly_nosal_RES_28            0            0
+(  110)  unstable device for _rppolynw_RES_27                0            0
+(  112)  unstable device for _rppoly_RES_26                  0            0
+(  114)  unstable device for _rpdiff_nosal_RES_25            0            0
+(  116)  unstable device for _rpdiff_RES_24                  0            0
+(  118)  unstable device for _rnpolynw_nosal_RES_            0            0
+(  120)  unstable device for _rnpoly_nosal_RES_22            0            0
+(  122)  unstable device for _rnpolynw_RES_21                0            0
+(  124)  unstable device for _rnpoly_RES_20                  0            0
+(  126)  unstable device for _rndiff_nosal_RES_19            0            0
+(  128)  unstable device for _rndiff_RES_18                  0            0
+(  130)  unstable device for _nmoscap_25_3_MOS_17            0            0
+(  132)  unstable device for _nmoscap_12_3_MOS_16            0            0
+(  134)  unstable device for _nmoscap_25_MOS_15              0            0
+(  136)  unstable device for _nmoscap_12_MOS_14              0            0
+(  138)  unstable device for _pmoscap_25_3_MOS_13            0            0
+(  140)  unstable device for _pmoscap_12_3_MOS_12            0            0
+(  142)  unstable device for _pmoscap_25_MOS_11              0            0
+(  144)  unstable device for _pmoscap_12_MOS_10              0            0
+(  146)  unstable device for _pmos_25_MOS_9                  0            0
+(  148)  unstable device for _pmos_12_hvt_MOS_8              0            0
+(  150)  unstable device for _pmos_12_MOS_7                  0            0
+(  152)  unstable device for _nmos_25_native_MOS_            0            0
+(  154)  unstable device for _nmos_25_MOS_5                  0            0
+(  156)  unstable device for _nmos_12_native_MOS_            0            0
+(  158)  unstable device for _nmos_12_iso_Device_            0            0
+(  160)  unstable device for _nmos_12_hvt_MOS_2              0            0
+(  162)  unstable device for _nmos_12_MOS_1                  0            0
+--------------------------------------------------------------------------------
+Total  errors:                                               0            0
+--------------------------------------------------------------------------------
