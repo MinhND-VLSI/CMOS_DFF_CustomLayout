@@ -109,40 +109,6 @@ The current implementation establishes a verified functional and physical baseli
 
 All reported results are simulation-based and depend on the selected technology models, device dimensions, loading conditions, and verification setup.
 
-## 6. Repository Structure
-
-The following structure is a suggested organization; update it to match the actual repository contents.
-
-```text
-.
-├── README.md
-├── schematic/
-├── simulation/
-├── layout/
-├── verification/
-├── extraction/
-└── docs/
-    └── images/
-```
-
-- `schematic/` — circuit schematics and symbol views.
-- `simulation/` — testbench configuration and transient waveforms.
-- `layout/` — custom layout screenshots and exported layout data, if available.
-- `verification/` — DRC and LVS reports.
-- `extraction/` — extracted netlists and post-layout simulation results.
-- `docs/images/` — selected figures used in the README.
-
-## 7. Reproducibility
-
-To reproduce the design and its reported results:
-
-1. Set up a design library using a compatible 90 nm technology environment.
-2. Implement the transmission-gate, inverter, and master–slave flip-flop schematics.
-3. Configure the transient testbench with a 1.2 V supply, 10 ps input transitions, and a 10 fF output load.
-4. Run a 20 ns transient simulation to verify functional behavior.
-5. Create the custom layout and perform DRC and LVS verification.
-6. Extract layout-dependent parasitics and generate the extracted circuit view.
-7. Repeat the transient simulation using the extracted circuit and compare clock-to-Q delays at the 50% VDD crossing.
 
 ## Notes
 
