@@ -38,7 +38,6 @@ Each latch consists of an input transmission gate, a forward inverter, and a fee
 | PMOS dimensions (W/L) | 240 nm / 100 nm |
 | NMOS dimensions (W/L) | 120 nm / 100 nm |
 | Input rise/fall time | 10 ps |
-| Output load | 10 fF |
 | Transient simulation duration | 20 ns |
 | Simulation engine | Spectre |
 
